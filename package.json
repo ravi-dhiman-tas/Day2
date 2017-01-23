@@ -4,7 +4,8 @@
   "description": "My 100DaysOfCode challenge, now for angular 2.0.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --rootDir src --outDir dist",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
