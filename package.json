@@ -1,11 +1,13 @@
 {
-  "name": "Day2",
+  "name": "day2",
   "version": "1.0.0",
   "description": "My 100DaysOfCode challenge, now for angular 2.0.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --rootDir src --outDir dist",
-    "postinstall": "typings install"
+    "build": "webpack --progress",
+    "build:prod": "webpack -p --progress",
+    "postinstall": "typings install",
+    "serve": "webpack-dev-server --inline --progress"
   },
   "repository": {
     "type": "git",
