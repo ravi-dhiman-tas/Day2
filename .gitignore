@@ -1,3 +1,6 @@
+# Commands
+hello = "!echo \"Hello World\""
+
 # Logs
 logs
 *.log
