@@ -1,6 +1,6 @@
 # Day2
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.
+This project is my 100DaysOfCode challenge to setup and run Angular2.0
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -12,6 +12,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Build with webpack-dev-server
+
+Run `npm run build:prod` to build the project for production.
+
+## Run webpack-dev-sever
+
+Run `npm run serve` to run webpack-dev-server on `http://localhost:8080/`.
 
 ## Running unit tests
 
