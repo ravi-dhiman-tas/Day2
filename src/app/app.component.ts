@@ -1,14 +1,10 @@
-// cores
-import { Component } from "@angular/core";
-import { NgModule } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: `
-        <h1>HTML from template.</h1>
-        <a routerLink="/any" routerLinkActive="active">New page</a>
-        <router-outlet></router-outlet>
-    `
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-
-export class AppComponent {}
+export class AppComponent {
+  title = 'app works!';
+}
